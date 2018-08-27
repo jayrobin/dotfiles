@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+cp .bash_profile      $HOME/.bash_profile
+cp .gitconfig         $HOME/.gitconfig
+cp .gitignore_global  $HOME/.gitignore_global
+cp .inputrc           $HOME/.inputrc
+
+source ~/.bash_profile
